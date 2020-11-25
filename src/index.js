@@ -2,6 +2,6 @@
 
 import JobsContainer from "./Class/JobsContainer.js";
 
-const test = new JobsContainer();
+const App = new JobsContainer();
 
-test.postJob();
+App.postJob();

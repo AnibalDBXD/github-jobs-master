@@ -4,7 +4,7 @@ body{
 }
 
 .input-container{
-    background-image: url("../../assets/backgroundImg.png");
+    background-image: url("../assets/backgroundImg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
