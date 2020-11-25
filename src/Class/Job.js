@@ -6,10 +6,16 @@ export default class Job {
     this.company = data.company;
     this.location = data.location;
     this.title = data.title;
-    this.company_logo = data.company_logo;
-    this.created_at = data.created_at;
+    this.company_logo =
+      data.company_logo ||
+      "https://storiavoce.com/wp-content/plugins/lightbox/images/No-image-found.jpg";
+    this.created_at = this.cleaningDate(data.created_at);
+  }
 
-    this.createBadge();
+  cleaningDate(date) {
+    let cleanDate = date.split(" ");
+    cleanDate = cleanDate[1] + " " + cleanDate[2];
+    return cleanDate;
   }
 
   createBadge() {

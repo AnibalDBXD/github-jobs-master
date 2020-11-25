@@ -1,8 +1,13 @@
 ("use strict");
-export class API {
+export default class API {
   constructor(url) {
     this.url = url;
     this.data;
+  }
+
+  changeURL(newUrl) {
+    this.url = newUrl;
+    return this.url;
   }
 
   async fetchData() {
