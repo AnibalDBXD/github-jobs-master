@@ -1,3 +1,4 @@
+("use strict");
 export class API {
   constructor(url) {
     this.url = url;

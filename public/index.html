@@ -37,7 +37,7 @@
         <div class="col-3 container">
           <div class="row font-blue mt-4">
             <div class="form-group form-check">
-              <input type="checkbox" class="checkbox form-check-input" id="checkbox-fulltime">
+              <input type="checkbox" class="form-check-input" id="checkbox-fulltime">
               <label class="form-check-label" for="checkbox-fulltime">Full time</label>
             </div>
           </div>
@@ -50,51 +50,31 @@
           </form>
           <div class="row font-blue">
             <div class="form-group form-check">
-              <input type="checkbox" class="checkbox form-check-input" id="checkbox-london">
-              <label class="form-check-label" for="checkbox-london">London</label>
+              <input type="checkbox" class="form-check-input" id="london">
+              <label class="form-check-label" for="london">London</label>
             </div>
           </div>
           <div class="row font-blue">
             <div class="form-group form-check">
-              <input type="checkbox" class="checkbox form-check-input" id="checkbox-amsterdam">
-              <label class="form-check-label" for="checkbox-amsterdam">Amsterdam</label>
+              <input type="checkbox" class="form-check-input" id="amsterdam">
+              <label class="form-check-label" for="amsterdam">Amsterdam</label>
             </div>
           </div>
           <div class="row font-blue">
             <div class="form-group form-check">
-              <input type="checkbox" class="checkbox form-check-input" id="checkbox-newyork">
-              <label class="form-check-label" for="checkbox-newyork">New York</label>
+              <input type="checkbox" class="form-check-input" id="new+york">
+              <label class="form-check-label" for="new+york">New York</label>
             </div>
           </div>
           <div class="row font-blue">
             <div class="form-group form-check">
-              <input type="checkbox" class="checkbox form-check-input" id="checkbox-berlin">
-              <label class="form-check-label" for="checkbox-berlin">Berlin</label>
+              <input type="checkbox" class="form-check-input" id="berlin">
+              <label class="form-check-label" for="berlin">Berlin</label>
             </div>
           </div>
         </div>
         <div class="col-9">
-          <div class="jobs-container">
-            <div class="container job-poster bg-white p-2 mt-4">
-              <div class="row">
-                <div class="col-2 job-img my-auto"><img
-                    src="https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaVNPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--31ebcafc76d4d80670dd7fdb6e385ec835429a19/Resolute-logo-dark-250px.png"
-                    alt="..."></div>
-                <div class="col-6 job-body">
-                  <ul class="font-blue list-unstyled">
-                    <li class="job-company">Kasisto</li>
-                    <li>
-                      <h5>Front-End Software Enginner</h5>
-                    </li>
-                    <li><span class="outline-job-time">Full Time</span></li>
-                  </ul>
-                </div>
-                <div class="job-info col-4 d-flex flex-row-reverse align-items-end">
-                  <div class="mx-auto"><span>5 days</span></div>
-                  <div class="mx-auto"><span>New York</span></div>
-                </div>
-              </div>
-            </div>
+          <div class="jobs-container" id="jobs-container">
           </div>
         </div>
       </div>
@@ -103,8 +83,7 @@
 
   <!-- Code -->
 
-  <script src="../src/index.js"></script>
-
+  <script type="module" src="../src/index.js"></script>
   <!-- Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
