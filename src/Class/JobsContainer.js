@@ -16,9 +16,7 @@ export default class JobsContainer {
         this
       ) /* bind() is to anchor the context of this object to the CheckboxManager */
     );
-    this.FetchAPI = new FetchAPI(
-      config.URLWithoutCors + "description=&location="
-    );
+    this.FetchAPI = new FetchAPI(config.URL + "description=&location=");
   }
 
   render() {
@@ -28,8 +26,7 @@ export default class JobsContainer {
     const Search_query = this.InputManager.getQuery();
 
     this.FetchAPI.changeURL(
-      config.URLWithoutCors +
-        `search=${Search_query}&location=${ActiveCheckBoxes}`
+      config.URL + `search=${Search_query}&location=${ActiveCheckBoxes}`
     );
     this.postJob();
   }
