@@ -1,5 +1,5 @@
 ("use strict");
-export default class API {
+export default class FetchAPI {
   constructor(url) {
     this.url = url;
     this.data;

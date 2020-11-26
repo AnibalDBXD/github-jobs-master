@@ -3,7 +3,7 @@
 import CheckboxManager from "./CheckboxManager.js";
 import Job from "./Job.js";
 
-import API from "../api/API.js";
+import FetchAPI from "../api/FetchAPI.js";
 import config from "../api/config.js";
 
 export default class JobsContainer {
@@ -15,11 +15,11 @@ export default class JobsContainer {
         this
       ) /* bind() is to anchor the context of this object to the CheckboxManager */
     );
-    this.API = new API(config.URL + "description=&location=");
+    this.FetchAPI = new FetchAPI(config.URL + "description=&location=");
   }
 
   render() {
-    this.API.changeURL(
+    this.FetchAPI.changeURL(
       config.URL +
         `description=&location=${this.CheckboxManager.CheckBoxesToString(
           this.CheckboxManager.getActiveCheckBoxes()
@@ -34,7 +34,7 @@ export default class JobsContainer {
 
   postJob() {
     this.jobs_container.innerHTML = "";
-    this.API.getData().then((result) =>
+    this.FetchAPI.getData().then((result) =>
       result.forEach(
         (job) =>
           (this.jobs_container.innerHTML += this.createJob(job).createBadge())

@@ -2,6 +2,7 @@
 
 import JobsContainer from "./Class/JobsContainer.js";
 
-const App = new JobsContainer();
-
-App.postJob();
+window.onload = () => {
+  const App = new JobsContainer();
+  App.postJob();
+};
