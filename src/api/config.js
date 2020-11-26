@@ -1,4 +1,4 @@
 export default {
   URL:
-    "https://cors-anywhere.kerokuapp.com/https://jobs.github.com/positions.json?",
+    "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?",
 };

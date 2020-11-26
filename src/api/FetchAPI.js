@@ -15,7 +15,7 @@ export default class FetchAPI {
     if (response.status !== 200) {
       throw new Error(`HTTP Error! status: ${response.status}`);
     } else {
-      return response.json();
+      return await response.json();
     }
   }
 
