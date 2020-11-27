@@ -63,10 +63,10 @@ export default class Job {
   <div class="mt-sm-5 mt-lg-0 col-sm-12 col-lg-8">
       <div class="container main-color">
           <div class="row">
-              <div class="col-8">
+              <div class="col-6 col-log-8">
                   <h1>${this.title}</h1>
               </div>
-              <div class="col-4 my-auto">
+              <div class="col-6 col-log-4 my-auto">
                   <span class="outline-job-time">${this.type}</span>
               </div>
           </div>
