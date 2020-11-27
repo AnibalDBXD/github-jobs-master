@@ -74,10 +74,10 @@ export default class Job {
               <p>${this.created_at}</p>
           </div>
           <div class="row">
-              <div class="col-3 job-img">
+              <div class="col-6 col-log-3 job-img">
                   <img src="${this.company_logo}" alt="">
               </div>
-              <div class="col-3">
+              <div class="col-6 col-log-3">
                   <h5>${this.company}</h5>
                   <p class="text-gray">${this.location}</p>
               </div>
