@@ -50,7 +50,7 @@ export default class Job {
     return `
     <div class="col-sm-12 col-lg-4">
       <div class="row my-4">
-          <a href="/" class="text-decoration-none">
+          <a href="javascript:history.back();" class="text-decoration-none">
               ◀ Back to search
           </a>
       </div>
