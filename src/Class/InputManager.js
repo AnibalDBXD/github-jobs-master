@@ -1,3 +1,4 @@
+"use strict";
 export default class InputManager {
   constructor(renderFunction) {
     this.render = renderFunction;

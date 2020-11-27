@@ -1,0 +1,23 @@
+body{
+    background-color: #f6f7fb;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-color{
+    color:#334680
+}
+
+.text-gray{
+    color: #bdc1d2;
+}
+
+.outline-job-time{
+    border: 1px solid #364882;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.job-img > img{
+    width: 100%;
+    height: 100%;
+}
