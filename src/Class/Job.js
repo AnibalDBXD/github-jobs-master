@@ -38,8 +38,8 @@ export default class Job {
             </ul>
           </div>
           <div class="job-info col-4 d-flex flex-row-reverse align-items-end">
-            <div class="mx-auto"><span>${this.created_at}</span></div>
-            <div class="mx-auto"><span>${this.location}</span></div>
+            <div class="mx-3"><span>${this.created_at}</span></div>
+            <div class="mx-3"><span>${this.location}</span></div>
           </div>
         </div>
       </div>
