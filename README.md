@@ -6,6 +6,7 @@ https://anibaldbxd.github.io/github-jobs-master/
 
 ## Table of Contents
 
+- [Challenge](#challenge)
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
@@ -13,19 +14,30 @@ https://anibaldbxd.github.io/github-jobs-master/
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
+
+<!-- Challenge -->
+
+## Challenge
+
+Challenge: Create a job search using an API. Use Front-end libraries like React or Vue. Don’t look at the existing solution. Fulfill user stories below:
+
+User story: I can see a list of jobs in a city by default
+User story: I can search for jobs with a given keyword
+User story: I can search for jobs with a city name, zip code or other location
+User story: I can select one option from at least 4 pre-defined options
+User story: I can search for a full-time job only
+User story: I can see a list of jobs with their logo, company name, location, and posted time.
+User story: When I select a job, I can see job descriptions and how to apply like the given design.
+User story: When I am on the job details page, I can go back to the search page
+User story (optional): I can see a list of jobs in the closest city from my location by default
+User story (optional): I can see jobs in different pages, 5 items each page
+
 <!-- OVERVIEW -->
 
 ## Overview
 
 ![Captura](https://user-images.githubusercontent.com/66853369/100295964-5fc4d380-2f61-11eb-97ab-45cff73f61ea.PNG)
 
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
 
 ### Built With
 
